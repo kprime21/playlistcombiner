@@ -1,8 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import spotipy
-from spotipy.oauth2 import SpotifyOAuth
+
 
 
 #test youtube links
@@ -15,7 +14,7 @@ playlistResult = re.findall(r'www.youtube.com\/(.*?)[\?|&]list=([^&\v]*)',link)
 
 
 
-#youtube
+#youtube - get songs and covers
 
 data2 = requests.get('https://www.youtube.com/playlist?list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020')
 soup2 = BeautifulSoup(data2.text, 'html.parser')
@@ -36,7 +35,7 @@ for i in range(len(youtubetitles)):
 
 
 
-#spotify music ( spotify only limits to 100 so changes need to be made)
+#spotify - get songs  ( spotify only limits to 100 songs per playlist)
 
 data = requests.get('https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL')
 soup = BeautifulSoup(data.text, 'html.parser')
@@ -65,9 +64,6 @@ for values in soup.find_all('a'):
 for value in soup.find_all('a', {'href': re.compile(r'(https:\/\/open.spotify.com\/track\/\w*)')}):
     spotifyLink.append(value['href'])
 
-#get album covers
-for idx, item in enumerate(results['items']):
-    covers.append('cover: ' + item['track']['album']['images'][0]['url'])
 
 #print values
 for x in range(songIndex):

@@ -1074,3 +1074,657 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+console.error: "Error while calling actor 'inspector's method 'getHighlighterByType'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: ({})
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 157: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 157: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+1647022459369	geckodriver	INFO	Listening on 127.0.0.1:44903
+1647022459371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42101" "-no-remote" "-profile" "/tmp/rust_mozprofileVXQ4X5"
+1647022459736	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVXQ4X5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42101/devtools/browser/51e1edd3-e30c-4b21-ae32-ca46af5e9fd3
+1647022460463	Marionette	INFO	Listening on port 37029
+1647022460481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647022472663	Marionette	INFO	Stopped listening on port 37029
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022489326	geckodriver	INFO	Listening on 127.0.0.1:39195
+1647022489328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33791" "-no-remote" "-profile" "/tmp/rust_mozprofilekwSeRA"
+1647022489696	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekwSeRA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33791/devtools/browser/38d4bd14-1484-47b7-bf65-ac5af303e73a
+1647022490406	Marionette	INFO	Listening on port 43605
+1647022490439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647022503052	Marionette	INFO	Stopped listening on port 43605
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022517780	geckodriver	INFO	Listening on 127.0.0.1:50317
+1647022517782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36201" "-no-remote" "-profile" "/tmp/rust_mozprofilei4zTtU"
+1647022518150	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei4zTtU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36201/devtools/browser/578a63ac-a68b-467e-829c-20928d3db41a
+1647022518860	Marionette	INFO	Listening on port 41983
+1647022518891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647022546658	Marionette	INFO	Stopped listening on port 41983
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022547044	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 570))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal2147483650/pagestyle24 (resource://devtools/server/actors/page-style.js:570:5)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.spotify.com"
+JavaScript error: https://www-growth.scdn.co/_next/static/chunks/main-ee58354b165a9109cff1.js, line 1: TypeError: n is null
+1647022673743	geckodriver	INFO	Listening on 127.0.0.1:50269
+1647022673746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35965" "-no-remote" "-profile" "/tmp/rust_mozprofilenZS0dQ"
+1647022674112	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenZS0dQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35965/devtools/browser/7b39e18a-3b7f-49b4-a73f-15f330f51d58
+1647022674906	Marionette	INFO	Listening on port 36719
+1647022674956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647022683150	Marionette	INFO	Stopped listening on port 36719
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022683916	Marionette	INFO	Stopped listening on port 40011
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022685539	Marionette	INFO	Stopped listening on port 36477
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022686244	Marionette	INFO	Stopped listening on port 46345
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022687061	Marionette	INFO	Stopped listening on port 36677
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022688057	Marionette	INFO	Stopped listening on port 46327
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022689138	Marionette	INFO	Stopped listening on port 41343
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022690076	Marionette	INFO	Stopped listening on port 37121
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022742141	geckodriver	INFO	Listening on 127.0.0.1:55413
+1647022742144	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47793" "-no-remote" "-profile" "/tmp/rust_mozprofileoCoDFT"
+1647022742511	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoCoDFT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47793/devtools/browser/34f6c6a9-2b62-4c6c-bca4-b8db482fd205
+1647022743273	Marionette	INFO	Listening on port 46845
+1647022743364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1647022892869	geckodriver	INFO	Listening on 127.0.0.1:34925
+1647022892871	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42135" "-no-remote" "-profile" "/tmp/rust_mozprofileKUQaKj"
+1647022893241	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKUQaKj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42135/devtools/browser/ccaa1d05-4384-4f56-ae4b-dc81f6f4ba81
+1647022893951	Marionette	INFO	Listening on port 42779
+1647022893983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647022903301	geckodriver	INFO	Listening on 127.0.0.1:38767
+1647022903304	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58117" "-no-remote" "-profile" "/tmp/rust_mozprofiletF5jvD"
+1647022903671	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletF5jvD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58117/devtools/browser/28501a4b-6b33-43a9-b956-54f2ae3d05bb
+1647022904397	Marionette	INFO	Listening on port 34841
+1647022904417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647022911739	Marionette	INFO	Stopped listening on port 34841
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647022993638	geckodriver	INFO	Listening on 127.0.0.1:39867
+1647022993641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55663" "-no-remote" "-profile" "/tmp/rust_mozprofileh2Bwc0"
+1647022994010	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileh2Bwc0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55663/devtools/browser/ff6caaa6-58ad-49d2-87b5-3260667f6236
+1647022994741	Marionette	INFO	Listening on port 32811
+1647022994753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023006862	Marionette	INFO	Stopped listening on port 32811
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023055313	geckodriver	INFO	Listening on 127.0.0.1:55661
+1647023055315	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55731" "-no-remote" "-profile" "/tmp/rust_mozprofilenTIADm"
+1647023055689	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenTIADm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55731/devtools/browser/13a4a5b4-d032-4796-9cbb-3e567060da9f
+1647023056379	Marionette	INFO	Listening on port 43687
+1647023056426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023089372	Marionette	INFO	Stopped listening on port 43687
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023090109	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+1647023094726	geckodriver	INFO	Listening on 127.0.0.1:38555
+1647023094728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40919" "-no-remote" "-profile" "/tmp/rust_mozprofile9IjqXD"
+1647023095098	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9IjqXD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40919/devtools/browser/16a7d730-3474-47ac-b3bf-1ec0f3136bd3
+1647023095821	Marionette	INFO	Listening on port 36803
+1647023095840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023107237	Marionette	INFO	Stopped listening on port 36803
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1647023107428	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023111175	geckodriver	INFO	Listening on 127.0.0.1:33493
+1647023111177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35747" "-no-remote" "-profile" "/tmp/rust_mozprofile7akP4R"
+1647023111548	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7akP4R/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35747/devtools/browser/b77ddce8-ab1c-4682-b234-0e08e424af00
+1647023112297	Marionette	INFO	Listening on port 40191
+1647023112394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023122204	Marionette	INFO	Stopped listening on port 40191
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023122600	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+1647023181191	geckodriver	INFO	Listening on 127.0.0.1:36443
+1647023181194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56707" "-no-remote" "-profile" "/tmp/rust_mozprofilehu9cUX"
+1647023181568	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehu9cUX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56707/devtools/browser/a684d4d9-e00b-49a7-a64c-baf53c7736a5
+1647023182325	Marionette	INFO	Listening on port 36391
+1647023182408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023189479	Marionette	INFO	Stopped listening on port 36391
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023194700	geckodriver	INFO	Listening on 127.0.0.1:54365
+1647023194702	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49255" "-no-remote" "-profile" "/tmp/rust_mozprofilenWqggd"
+1647023195071	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenWqggd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49255/devtools/browser/2ac85e64-8ada-401d-bc27-088af7394f85
+1647023195807	Marionette	INFO	Listening on port 40057
+1647023195913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023206708	Marionette	INFO	Stopped listening on port 40057
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023207458	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+1647023396345	Marionette	INFO	Stopped listening on port 42779
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023450133	geckodriver	INFO	Listening on 127.0.0.1:50923
+1647023450135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45171" "-no-remote" "-profile" "/tmp/rust_mozprofilem4mien"
+1647023450500	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem4mien/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45171/devtools/browser/03d518dc-7730-4900-94b6-d5c91576d41d
+1647023451223	Marionette	INFO	Listening on port 35263
+1647023451246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023457246	Marionette	INFO	Stopped listening on port 35263
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023490781	geckodriver	INFO	Listening on 127.0.0.1:34949
+1647023490784	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49005" "-no-remote" "-profile" "/tmp/rust_mozprofilesjDH3A"
+1647023491162	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesjDH3A/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49005/devtools/browser/b4ea82b7-0a24-489a-8b16-66b74775193e
+1647023491889	Marionette	INFO	Listening on port 34273
+1647023491996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023503427	geckodriver	INFO	Listening on 127.0.0.1:40921
+1647023503429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "32939" "-no-remote" "-profile" "/tmp/rust_mozprofilej2B6fO"
+1647023503797	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilej2B6fO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:32939/devtools/browser/06094403-9f1f-4296-b87e-f8f4f445538d
+1647023504501	Marionette	INFO	Listening on port 46681
+1647023504540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023510939	Marionette	INFO	Stopped listening on port 46681
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1647023548327	geckodriver	INFO	Listening on 127.0.0.1:40713
+1647023548329	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38523" "-no-remote" "-profile" "/tmp/rust_mozprofileNtjwnO"
+1647023548700	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNtjwnO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38523/devtools/browser/bc9fa95a-2996-46d6-872e-f536e655c9ec
+1647023549413	Marionette	INFO	Listening on port 42001
+1647023549440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023554693	Marionette	INFO	Stopped listening on port 42001
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023597471	geckodriver	INFO	Listening on 127.0.0.1:46479
+1647023597473	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56505" "-no-remote" "-profile" "/tmp/rust_mozprofilewN3OXH"
+1647023597847	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewN3OXH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56505/devtools/browser/e296de0e-ceff-4e34-83cf-4ef98a4d793c
+1647023598572	Marionette	INFO	Listening on port 45629
+1647023598584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023604012	Marionette	INFO	Stopped listening on port 45629
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647023608211	Marionette	INFO	Stopped listening on port 34273
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023613829	geckodriver	INFO	Listening on 127.0.0.1:34659
+1647023613831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46141" "-no-remote" "-profile" "/tmp/rust_mozprofilefCQgLV"
+1647023614199	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefCQgLV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46141/devtools/browser/ca858259-ac54-4b50-a8cf-6947250dc4ea
+1647023614952	Marionette	INFO	Listening on port 42881
+1647023615054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1647023687719	geckodriver	INFO	Listening on 127.0.0.1:52519
+1647023687721	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49151" "-no-remote" "-profile" "/tmp/rust_mozprofilezzZ0RK"
+1647023688088	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezzZ0RK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49151/devtools/browser/0a9c1d2a-b15a-488e-804c-d32f6ce07ccd
+1647023688782	Marionette	INFO	Listening on port 40985
+1647023688831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023695164	Marionette	INFO	Stopped listening on port 40985
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023760707	geckodriver	INFO	Listening on 127.0.0.1:39225
+1647023760709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56539" "-no-remote" "-profile" "/tmp/rust_mozprofilet1JCgR"
+1647023761082	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet1JCgR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56539/devtools/browser/49b964c5-87d3-400e-85af-d9e3ad765155
+1647023761840	Marionette	INFO	Listening on port 39067
+1647023761926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023767472	Marionette	INFO	Stopped listening on port 39067
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023772763	geckodriver	INFO	Listening on 127.0.0.1:53449
+1647023772765	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42517" "-no-remote" "-profile" "/tmp/rust_mozprofileOvYfiZ"
+1647023773130	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOvYfiZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42517/devtools/browser/b9a31c6c-4c74-4fe5-af59-3a66681f7fba
+1647023773837	Marionette	INFO	Listening on port 46333
+1647023773876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023781649	Marionette	INFO	Stopped listening on port 46333
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023788455	geckodriver	INFO	Listening on 127.0.0.1:45345
+1647023788457	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34019" "-no-remote" "-profile" "/tmp/rust_mozprofile7N01n3"
+1647023788832	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7N01n3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34019/devtools/browser/65029a15-7ac3-497d-95d3-f277c41d4baa
+1647023789521	Marionette	INFO	Listening on port 39543
+1647023789567	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023795113	Marionette	INFO	Stopped listening on port 39543
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023801431	geckodriver	INFO	Listening on 127.0.0.1:49177
+1647023801434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34443" "-no-remote" "-profile" "/tmp/rust_mozprofilerQ2Zsk"
+1647023801798	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerQ2Zsk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34443/devtools/browser/38d0a0fb-2db8-4447-9da5-b906335001fd
+1647023802493	Marionette	INFO	Listening on port 36101
+1647023802544	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023807495	Marionette	INFO	Stopped listening on port 36101
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023837352	geckodriver	INFO	Listening on 127.0.0.1:55087
+1647023837354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42797" "-no-remote" "-profile" "/tmp/rust_mozprofileishb7g"
+1647023837726	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileishb7g/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42797/devtools/browser/55c214bf-a6cb-45a0-99f9-15e8cfda3509
+1647023838452	Marionette	INFO	Listening on port 46781
+1647023838466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023844379	Marionette	INFO	Stopped listening on port 46781
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647023865442	Marionette	INFO	Stopped listening on port 42881
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023974440	geckodriver	INFO	Listening on 127.0.0.1:45411
+1647023974442	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33107" "-no-remote" "-profile" "/tmp/rust_mozprofile7N3HK0"
+1647023974806	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7N3HK0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33107/devtools/browser/613c4251-418a-4413-9114-7ec312cf505e
+1647023975549	Marionette	INFO	Listening on port 37017
+1647023975661	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023982302	Marionette	INFO	Stopped listening on port 37017
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647023986222	geckodriver	INFO	Listening on 127.0.0.1:34293
+1647023986225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58237" "-no-remote" "-profile" "/tmp/rust_mozprofile8aofnj"
+1647023986594	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8aofnj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58237/devtools/browser/cf26c35b-0fc3-4e3d-b2a3-0111d412e0d8
+1647023987304	Marionette	INFO	Listening on port 33795
+1647023987336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647023996879	geckodriver	INFO	Listening on 127.0.0.1:45991
+1647023996881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57253" "-no-remote" "-profile" "/tmp/rust_mozprofilesfXslO"
+1647023997246	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesfXslO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57253/devtools/browser/71b63a55-e0a7-45fe-86f9-a0ab325fcfd5
+1647023997947	Marionette	INFO	Listening on port 38827
+1647023997992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024004672	Marionette	INFO	Stopped listening on port 38827
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647024010408	geckodriver	INFO	Listening on 127.0.0.1:53587
+1647024010411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41107" "-no-remote" "-profile" "/tmp/rust_mozprofilel9BySi"
+1647024010776	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel9BySi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41107/devtools/browser/3fe2756c-c56e-47f5-a575-a67c328d06e1
+1647024011502	Marionette	INFO	Listening on port 42485
+1647024011521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024018620	Marionette	INFO	Stopped listening on port 42485
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647024086554	geckodriver	INFO	Listening on 127.0.0.1:39175
+1647024086557	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34821" "-no-remote" "-profile" "/tmp/rust_mozprofileBFNl8x"
+1647024086926	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBFNl8x/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34821/devtools/browser/c4ccda17-1594-4058-aed0-99e88989b245
+1647024087639	Marionette	INFO	Listening on port 45081
+1647024087670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024149330	Marionette	INFO	Stopped listening on port 45081
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647024149874	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+1647024234174	geckodriver	INFO	Listening on 127.0.0.1:46077
+1647024234176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57191" "-no-remote" "-profile" "/tmp/rust_mozprofilerPq6sg"
+1647024234549	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerPq6sg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57191/devtools/browser/51f5a211-00d5-4155-8ec8-be8a65c027fd
+1647024235273	Marionette	INFO	Listening on port 41013
+1647024235288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024277945	Marionette	INFO	Stopped listening on port 41013
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647024278430	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+1647024299259	geckodriver	INFO	Listening on 127.0.0.1:50571
+1647024299262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39391" "-no-remote" "-profile" "/tmp/rust_mozprofileKLMFAD"
+1647024299626	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKLMFAD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39391/devtools/browser/e9e4326e-1760-4353-a1a1-ca0fa4e0e92d
+1647024300371	Marionette	INFO	Listening on port 35999
+1647024300472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024324860	geckodriver	INFO	Listening on 127.0.0.1:42659
+1647024324862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41721" "-no-remote" "-profile" "/tmp/rust_mozprofile1kvdkc"
+1647024325233	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1kvdkc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41721/devtools/browser/5b5ba390-665b-438b-9c7b-2a24805ed6a8
+1647024325960	Marionette	INFO	Listening on port 38499
+1647024325975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024420810	geckodriver	INFO	Listening on 127.0.0.1:42847
+1647024420813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48615" "-no-remote" "-profile" "/tmp/rust_mozprofileZRvTmk"
+1647024421181	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZRvTmk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48615/devtools/browser/a921f49a-4554-4244-8e2d-71d8dbebb070
+1647024422028	Marionette	INFO	Listening on port 46069
+1647024422130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024541095	geckodriver	INFO	Listening on 127.0.0.1:51591
+1647024541098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35135" "-no-remote" "-profile" "/tmp/rust_mozprofileZ3WWHu"
+1647024541484	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZ3WWHu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35135/devtools/browser/e28ca50a-2a72-40c9-86b8-ff4d301c7338
+1647024542387	Marionette	INFO	Listening on port 38915
+1647024542417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024567499	geckodriver	INFO	Listening on 127.0.0.1:35385
+1647024567501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33623" "-no-remote" "-profile" "/tmp/rust_mozprofilebBcbLi"
+1647024567885	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebBcbLi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33623/devtools/browser/132b251e-308a-46a3-bc78-3b6ec864162c
+1647024568620	Marionette	INFO	Listening on port 34755
+1647024568714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024748058	geckodriver	INFO	Listening on 127.0.0.1:53303
+1647024748060	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43691" "-no-remote" "-profile" "/tmp/rust_mozprofileFRAXk0"
+1647024748439	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFRAXk0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43691/devtools/browser/1ac8d378-91ac-40ce-9968-bd68652db644
+1647024749168	Marionette	INFO	Listening on port 43923
+1647024749277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024758509	Marionette	INFO	Stopped listening on port 43923
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647024770761	geckodriver	INFO	Listening on 127.0.0.1:43771
+1647024770764	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44727" "-no-remote" "-profile" "/tmp/rust_mozprofileS2WO9b"
+1647024771128	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS2WO9b/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44727/devtools/browser/30e7aeb6-d875-42ef-8772-01553ce2ffb6
+1647024771864	Marionette	INFO	Listening on port 43025
+1647024771876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024781075	Marionette	INFO	Stopped listening on port 43025
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647024796181	geckodriver	INFO	Listening on 127.0.0.1:60563
+1647024796184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51865" "-no-remote" "-profile" "/tmp/rust_mozprofileYv3Qzt"
+1647024796586	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYv3Qzt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51865/devtools/browser/4d8fe497-099a-4951-a6be-cf39a69a99b8
+1647024797371	Marionette	INFO	Listening on port 46207
+1647024797394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024809880	Marionette	INFO	Stopped listening on port 46207
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1647024810033	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647024825157	geckodriver	INFO	Listening on 127.0.0.1:38675
+1647024825159	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53597" "-no-remote" "-profile" "/tmp/rust_mozprofileJxp918"
+1647024825527	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJxp918/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53597/devtools/browser/55b238f7-03e4-4727-8a6e-563301651d85
+1647024826234	Marionette	INFO	Listening on port 40643
+1647024826271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647024843091	Marionette	INFO	Stopped listening on port 40643
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647025090284	geckodriver	INFO	Listening on 127.0.0.1:47889
+1647025090287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54075" "-no-remote" "-profile" "/tmp/rust_mozprofileCXkiik"
+1647025090661	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCXkiik/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54075/devtools/browser/2fb0dfb0-673f-4a67-8029-0f27cd2df1bc
+1647025091356	Marionette	INFO	Listening on port 44101
+1647025091397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647025104656	Marionette	INFO	Stopped listening on port 44101
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647025276286	geckodriver	INFO	Listening on 127.0.0.1:36273
+1647025276289	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39205" "-no-remote" "-profile" "/tmp/rust_mozprofile37yCPZ"
+1647025276657	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile37yCPZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39205/devtools/browser/a97f7bbe-bb1b-42c7-9397-a4e87ab0831b
+1647025277360	Marionette	INFO	Listening on port 40545
+1647025277400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1647025291447	geckodriver	INFO	Listening on 127.0.0.1:36071
+1647025291449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49855" "-no-remote" "-profile" "/tmp/rust_mozprofile5RPPvX"
+1647025291815	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5RPPvX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49855/devtools/browser/1b355bb2-1c2b-4195-bad3-52066e7b5e8e
+1647025292535	Marionette	INFO	Listening on port 35317
+1647025292559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
