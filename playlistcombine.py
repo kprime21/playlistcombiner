@@ -1,38 +1,57 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+import spotipy
+from spotipy.oauth2 import SpotifyOAuth
 
 
 
 
-# link = 'https://www.youtube.com/playlist?list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020'
-# link2 = 'https://www.youtube.com/watch?v=C-hzP3mOBGY&list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020&index=1'
+link = 'https://www.youtube.com/playlist?list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020'
+link2 = 'https://www.youtube.com/watch?v=C-hzP3mOBGY&list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020&index=1'
 
-# #check if it is link to playlist or link to playlist in videos
-# result = re.findall(r'www.youtube.com\/(.*?)\?(list|v)(.*)',link)
+#check if it is link to playlist or link to playlist in videos and get id for playlist
+playlistResult = re.findall(r'www.youtube.com\/(.*?)[\?|&]list=([^&\v]*)',link)
 
-
-
-
+print()
 
 
-data = requests.get('https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL')
+
+
+
+
+
+
+#youtube
+
 data2 = requests.get('https://www.youtube.com/playlist?list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020')
-
-
-
-
-
-soup = BeautifulSoup(data.text, 'html.parser')
 soup2 = BeautifulSoup(data2.text, 'html.parser')
+youtubetitles = re.findall(r'"playlistVideoRenderer":.*?"text":"(.*?)"}]', str(soup2))
+#get video id
+youtubelinks = re.findall(r'"playlistVideoRenderer":.*?"videoId":"(.*?)"', str(soup2))
+youtubeidcovers = re.findall(r'{"playlistVideoRenderer":{"videoId":"(.*?)","thumbnail":{"thumbnails":\[{"url":"(.*?)"',str(soup2))
+
+for i in range(len(youtubetitles)):
+    print(youtubetitles[i])
+    linkInsert = 'https://www.youtube.com/watch?v=' + str(youtubelinks[i]) + '&list=' + playlistResult[0][1] + '&index=' + str(i+1) 
+    print("link: " + linkInsert + "\n" + "cover: " + str(youtubeidcovers[i][1]))
+
+
+
+
 
 #spotify music ( spotify only limits to 100 so changes need to be made)
+
+data = requests.get('https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL')
+soup = BeautifulSoup(data.text, 'html.parser')
+
 artists = []
 artistsForSong = []
 songIndex = -1
 songs = []
-for values in soup.find_all('a'):
+covers = []
 
+for values in soup.find_all('a'):
     if(bool(re.search(r'<a class="EntityRowV2__Link-sc-ayafop-8 eWYxOj"', str(values)))):
         songs.append(values.text)
         if(songIndex>=0):
@@ -43,22 +62,22 @@ for values in soup.find_all('a'):
     elif(bool(re.search(r'<a href="\/artist\/', str(values)))):
         artistsForSong.append(values.text)
 
+
+
+#cover art
+SCOPE = 'user-library-read'
+CACHE = '.spotipyoauthcache'
+
+
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth('a620a32c5e2644edb56292724f8711f0','e9152986f5644c6d8acefd8002e236c8','https://open.spotify.com/', scope=SCOPE, cache_path=CACHE))
+
+
+results = sp.playlist_items('https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL')
+for idx, item in enumerate(results['items']):
+    covers.append('cover art: ' + item['track']['album']['images'][0]['url'])
+
 for x in range(songIndex):
     a = ""
     for j in artists[x]:
         a+= j + " "
-    print(a + " - " + songs[x])
-
-
-    
-#youtube
-
-youtubetitles = re.findall(r'"playlistVideoRenderer":.*?"text":"(.*?)"}]', str(soup2))
-youtubelinks = re.findall(r'"playlistVideoRenderer":.*?"videoId":"(.*?)"', str(soup2))
-
-for values in youtubetitles:
-    print(values)
-for values in youtubelinks:
-    print("https://www.youtube.com/watch?v=" + values)
-
-
+    print(a + " - " + songs[x] + "\n"+covers[x])
