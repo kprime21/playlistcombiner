@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
@@ -66,16 +65,6 @@ for values in soup.find_all('a'):
 for value in soup.find_all('a', {'href': re.compile(r'(https:\/\/open.spotify.com\/track\/\w*)')}):
     spotifyLink.append(value['href'])
 
-#use spotipy API to get images 
-SCOPE = 'user-library-read'
-CACHE = '.spotipyoauthcache'
-
-#spotipy auth
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth('a620a32c5e2644edb56292724f8711f0','e9152986f5644c6d8acefd8002e236c8','https://open.spotify.com/', scope=SCOPE, cache_path=CACHE))
-
-#spotify api to get playlist
-results = sp.playlist_items('https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL')
-
 #get album covers
 for idx, item in enumerate(results['items']):
     covers.append('cover: ' + item['track']['album']['images'][0]['url'])
@@ -85,7 +74,7 @@ for x in range(songIndex):
     a = ""
     for j in artists[x]:
         a+= j + " "
-    print(a + " - " + songs[x] + "\n"+covers[x] + "\n"+spotifyLink[x])
+    print(a + " - " + songs[x] + "\n"+spotifyLink[x])
 
 
 
