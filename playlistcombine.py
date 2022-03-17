@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import re
 
 
-
 # get beautiful soup link
 def Soupify(link):
     data = requests.get(link)
@@ -27,28 +26,26 @@ def youtubeGetSongs(soup):
         r'"playlistVideoRenderer":.*?"text":"(.*?)"}]', str(soup))
     return youtubeSongs
 
-def youtubeGetLinks(soup,link):
+
+def youtubeGetLinks(soup, link):
     youtubeLinks = []
     # get video id
     youtubeId = re.findall(
         r'"playlistVideoRenderer":.*?"videoId":"(.*?)"', str(soup))
 
-    #use to check if it is playlist or video
+    # use to check if it is playlist or video
     playlistResult = re.findall(
         r'www.youtube.com\/(playlist|watch).*?[\?|&]list=([^&\v]*)', link)
 
-    index = 0
+    # index = 0
     for i in youtubeId:
-        index+=1
+        #index += 1
         linkInsert = 'https://www.youtube.com/watch?v=' + \
-            str(i) + '&list=' + \
-            playlistResult[0][1] + '&index=' + str(index)    
+            str(i)
+        # + '&list=' + \
+        #playlistResult[0][1] + '&index=' + str(index)
         youtubeLinks.append(linkInsert)
     return youtubeLinks
-
-        
-
-
 
 
 # spotify - get songs  ( spotify only limits to 100 songs per playlist)
@@ -73,17 +70,18 @@ def spotifyGetSongs(soup):
         elif(bool(re.search(r'<a href="\/artist\/', str(values)))):
             artistsForSong.append(values.text)
     artists.append(artistsForSong)
-    songIndex+=1
+    songIndex += 1
 
     for x in range(songIndex):
         a = ""
         for j in artists[x]:
             a += j + " "
-            spotifySongs.append(a + " - " + songs[x])
+        spotifySongs.append(a + " - " + songs[x])
 
     return spotifySongs
 
 # scrape html for spotify links
+
 
 def spotifyGetLinks(soup):
     spotifyLinks = []
@@ -95,10 +93,12 @@ def spotifyGetLinks(soup):
 def Youtube(link):
     youtubeSongsAndLinks = []
     youtubeLink = checkYoutubeLink(link)
-    youtubeSongsAndLinks.append(youtubeGetSongs(youtubeLink))
-    youtubeSongsAndLinks.append(youtubeGetLinks(Soupify(youtubeLink),youtubeLink))
+    youtubeSongsAndLinks.append(youtubeGetSongs(Soupify(youtubeLink)))
+    youtubeSongsAndLinks.append(youtubeGetLinks(
+        Soupify(youtubeLink), youtubeLink))
 
     return youtubeSongsAndLinks
+
 
 def Spotify(link):
     spotifySongsAndLinks = []
@@ -107,17 +107,17 @@ def Spotify(link):
     spotifySongsAndLinks.append(spotifyGetLinks(spotifyLink))
 
     return spotifySongsAndLinks
-    
+
+
 Youtube('https://www.youtube.com/watch?v=C-hzP3mOBGY&list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020&index=1')
 Spotify('https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL')
 
 
-
 # test links
 
-#https://www.youtube.com/playlist?list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020
-#https://www.youtube.com/watch?v=C-hzP3mOBGY&list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020&index=1
-#https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL
+# https://www.youtube.com/playlist?list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020
+# https://www.youtube.com/watch?v=C-hzP3mOBGY&list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020&index=1
+# https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL
 
 
 # get link to thumbnail image
