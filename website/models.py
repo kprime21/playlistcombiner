@@ -7,7 +7,7 @@ class musiclist(db.Model):
     playlistTitle = db.Column(db.String(100))
     youtubePlaylist = db.Column(db.String(100))
     spotifyPlaylist = db.Column(db.String(100))
-
+    
     def __init__(self, playlistTitle, youtubePlaylist, spotifyPlaylist):
         self.playlistTitle = playlistTitle
         self.youtubePlaylist = youtubePlaylist
