@@ -40,3 +40,5 @@ def home():
             spotifySongs = spotifyData[0], spotifyLinks = spotifyData[1])
     else:
         return render_template("index.html")
+
+
