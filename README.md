@@ -8,4 +8,4 @@ A website that allows you to combine your youtueb and spotify playlists and view
 
 ### Demonstration
 
-![IMAGE ALT TEXT](./demo/playlistcombinergif)
+![IMAGE ALT TEXT](./demo/playlistcombiner.gif)
