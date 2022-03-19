@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %} View All Users {% endblock %}
+
+{% block content %}
+    {% for item in values %}
+        <p>Title: {{item.playlistTitle}}, Youtube: {{item.youtubePlaylist}}, Spotify: {{item.spotifyPlaylist}}</p>
+    {% endfor %}
+{% endblock %}
