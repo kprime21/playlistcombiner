@@ -12,8 +12,23 @@ body {
     box-sizing: border-box;
     height: 520px;
     padding: 20px;
-    width: 600px;
+    width: 800px;
     position:absolute;
+  }
+  @media only screen and (max-width: 1000px){
+    .form {
+   
+      max-width:600px;
+    }
+      
+  }
+
+  @media only screen and (max-width: 600px){
+    .form {
+   
+      max-width:445px;
+    }
+      
   }
   
   .title {

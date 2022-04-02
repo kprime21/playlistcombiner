@@ -59,8 +59,9 @@ def spotifyGetSongs(soup):
     songIndex = -1
     songs = []
     for values in soup.find_all('a'):
-        # match songs to the correct artists
-        if(bool(re.search(r'<a class="EntityRowV2__Link-sc-ayafop-8 eWYxOj"', str(values)))):
+        
+        # match songs to the correct artists  
+        if(bool(re.search(r'<a class="EntityRowV2__Link-sc-ayafop-8 \w*"', str(values)))): # spotify may update their anchor classes
             songs.append(values.text)
             if(songIndex >= 0):
                 artists.append(artistsForSong)
@@ -69,8 +70,12 @@ def spotifyGetSongs(soup):
 
         elif(bool(re.search(r'<a href="\/artist\/', str(values)))):
             artistsForSong.append(values.text)
+            
+
     artists.append(artistsForSong)
     songIndex += 1
+    
+
 
     for x in range(songIndex):
         a = ""
@@ -110,8 +115,7 @@ def Spotify(link):
 
 
 Youtube('https://www.youtube.com/watch?v=C-hzP3mOBGY&list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020&index=1')
-Spotify('https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL')
-
+a= Spotify('https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL')
 
 # test links
 

@@ -17,6 +17,7 @@ html {
 }
 
 body {
+  min-width:425px;
   padding: 20px;
   background: linear-gradient(45deg,#49a09d,#5f2c82);
   line-height: 1.6;
@@ -115,7 +116,7 @@ thead th {
   border: 1px solid #a82545;
 }
 
-@media (min-width: 460px) {
+@media (min-width: 400px) {
   td {
     text-align: center;
   }
@@ -129,8 +130,9 @@ thead th {
     padding-left: 160px;
   }
 }
-@media (min-width: 720px) {
+@media (min-width: 400px) {
   table {
+    
     display: table;
   }
 
@@ -167,6 +169,9 @@ thead th {
 
   tr:nth-child(2n+2) td {
     background-color: #242e39;
+  }
+  tr:nth-child(2n+1) td {
+    background-color: #2C3845;
   }
 
   tfoot th {
