@@ -97,25 +97,32 @@ def spotifyGetLinks(soup):
 
 def Youtube(link):
     youtubeSongsAndLinks = []
-    youtubeLink = checkYoutubeLink(link)
-    youtubeSongsAndLinks.append(youtubeGetSongs(Soupify(youtubeLink)))
-    youtubeSongsAndLinks.append(youtubeGetLinks(
-        Soupify(youtubeLink), youtubeLink))
-
+    try:
+        youtubeLink = checkYoutubeLink(link)
+        youtubeSongsAndLinks.append(youtubeGetSongs(Soupify(youtubeLink)))
+        youtubeSongsAndLinks.append(youtubeGetLinks(
+            Soupify(youtubeLink), youtubeLink))
+    except:
+        print('Youtube playlist does not exist or is not public')
+        youtubeSongsAndLinks = ['','']
     return youtubeSongsAndLinks
 
 
 def Spotify(link):
     spotifySongsAndLinks = []
-    spotifyLink = Soupify(link)
-    spotifySongsAndLinks.append(spotifyGetSongs(spotifyLink))
-    spotifySongsAndLinks.append(spotifyGetLinks(spotifyLink))
+    try:
+        spotifyLink = Soupify(link)
+        spotifySongsAndLinks.append(spotifyGetSongs(spotifyLink))
+        spotifySongsAndLinks.append(spotifyGetLinks(spotifyLink))
+    except:
+        print('Spotify playlist does not exist or is not public')
+        spotifySongsAndLinks = ['','']
 
     return spotifySongsAndLinks
 
 
 Youtube('https://www.youtube.com/watch?v=C-hzP3mOBGY&list=PLgEPGvYuVfmpKScw-Gozj6rfbc2edU020&index=1')
-a= Spotify('https://open.spotify.com/playlist/4NKQC01pmUYlJqSRQnWTVL')
+Spotify('adasdad')
 
 # test links
 

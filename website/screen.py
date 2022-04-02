@@ -34,7 +34,7 @@ def home():
 
         youtubeData = Youtube(youtube)
         spotifyData = Spotify(spotify)
-
+        
         return render_template("music.html", title=title, youtube=youtube, spotify=spotify, \
             youtubeSongs = youtubeData[0], youtubeSongLinks = youtubeData[1], \
             spotifySongs = spotifyData[0], spotifyLinks = spotifyData[1])
